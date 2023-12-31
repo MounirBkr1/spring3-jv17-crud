@@ -9,7 +9,7 @@ public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer emplyeeId;
+    private Integer employeeId;
 
     private String employeeName;
     private String employeeContactNumber;
@@ -23,12 +23,12 @@ public class Employee {
     public Employee() {
     }
 
-    public Integer getEmplyeeId() {
-        return emplyeeId;
+    public Integer getEmployeeId() {
+        return employeeId;
     }
 
-    public void setEmplyeeId(Integer emplyeeId) {
-        this.emplyeeId = emplyeeId;
+    public void setEmployeeId(Integer emplyeeId) {
+        this.employeeId = emplyeeId;
     }
 
     public String getEmployeeName() {
